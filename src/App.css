@@ -13,8 +13,24 @@
   }
 }
 
+
+/* Override styles for the selected day */
+
+.Mui-selected {
+  background-color: #6BD371 !important;
+  color: #fff !important;
+  font-weight: 500;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+.MuiDayCalendar-weekDayLabel {
+  color: black !important;
+  font-weight: bold !important;
+}
+.MuiPickersCalendarHeader-label{
+  font-weight: bolder;  
+}
 .App-header {
-  background-color: #282c34;
+  background-color: #eef0f3;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
